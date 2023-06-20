@@ -24,7 +24,9 @@ const Card: React.FC<CardProps> = ({
   margin,
 }) => {
   return (
-    <div className={`flex drop-shadow-xl ${margin}`}>
+    <div
+      className={`flex drop-shadow-xl hover:scale-125 hover:animate-jump ${margin}`}
+    >
       <div
         className={`min-h-18 flex flex-col  gap-14 rounded-lg w-13 ${cardBgColor}`}
       >
