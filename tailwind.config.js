@@ -17,6 +17,10 @@ module.exports = {
     extend: {
       width: {
         800: '100%',
+        13: '13rem',
+      },
+      height: {
+        18: '18rem',
       },
       fontFamily: {
         mono: ['var(--font-roboto-mono)'],
@@ -26,6 +30,7 @@ module.exports = {
       colors: {
         heroTextColor: '#6F74A7',
         heroBg: '#F6F6F6',
+        headerColor: '#151E2C',
         buttonBg: '#0252CD',
         ts: '#3178C6',
         mui: '#0081CB',
