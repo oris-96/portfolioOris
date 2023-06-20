@@ -1,9 +1,13 @@
 /** @format */
 
-import Image from 'next/image';
-import { Button } from './ui/button';
+'use client';
 
+import Image from 'next/image';
 import { Linkedin, Globe, Github } from 'lucide-react';
+import Lottie from 'lottie-react';
+import animationData from '../public/103094-contact.json';
+
+import { Button } from './ui/button';
 
 const Hero = () => {
   return (
@@ -42,7 +46,9 @@ const Hero = () => {
           />
         </div>
       </section>
-      <section className="hidden lg:flex ">GIFJSON</section>
+      <section className="hidden lg:flex ">
+        <Lottie animationData={animationData} />
+      </section>
     </div>
   );
 };
