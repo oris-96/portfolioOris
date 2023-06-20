@@ -14,14 +14,15 @@ import { SiMongodb } from '@react-icons/all-files/si/SiMongodb';
 import { SiPostgresql } from '@react-icons/all-files/si/SiPostgresql';
 import { FaJava } from '@react-icons/all-files/fa/FaJava';
 import { FaGitlab } from '@react-icons/all-files/fa/FaGitlab';
-// import { SiExpress } from '@react-icons/all-files/si/SiExpress ';
 import { SiFigma } from '@react-icons/all-files/si/SiFigma';
 import { SiRedux } from '@react-icons/all-files/si/SiRedux';
-// import { SiNextdotjs } from '@react-icons/all-files/si/SiNextdotjs';
 import { SiSplunk } from '@react-icons/all-files/si/SiSplunk';
 import { SiGithub } from '@react-icons/all-files/si/SiGithub';
 import { FaNodeJs } from '@react-icons/all-files/fa/FaNodeJs';
 import { SiGit } from '@react-icons/all-files/si/SiGit';
+import { SiDocker } from '@react-icons/all-files/si/SiDocker';
+import { SiKubernetes } from '@react-icons/all-files/si/SiKubernetes';
+import { SiAmazonaws } from '@react-icons/all-files/si/SiAmazonaws';
 import Image from 'next/image';
 
 const Skills = () => {
@@ -45,71 +46,70 @@ const Skills = () => {
         </div>
         <div className="flex justify-center items-center flex-col">
           <div className=" flex justify-center h-12 w-12 bg-heroBg hover:animate-jump hover:bg-white hover:text-ts hover:scale-125 hover:drop-shadow-xl  items-center rounded-3xl  ">
-            <SiTypescript className=" text-3xl " />
+            <SiTypescript className=" text-xl " />
           </div>
           <p>TypeScript</p>
         </div>
         <div className="flex justify-center items-center flex-col">
           <div className=" flex justify-center h-12 w-12 bg-heroBg hover:animate-jump hover:bg-white hover:text-buttonBg hover:scale-125 hover:drop-shadow-xl  items-center rounded-3xl  ">
-            <SiPython className=" text-3xl " />
+            <SiPython className=" text-xl " />
           </div>
           <p>Python</p>
         </div>
         <div className="flex justify-center items-center flex-col">
           <div className=" flex justify-center h-12 w-12 bg-heroBg hover:animate-jump hover:bg-white hover:text-green-300 hover:scale-125 hover:drop-shadow-xl  items-center rounded-3xl  ">
-            <FaNodeJs className=" text-3xl " />
+            <FaNodeJs className=" text-xl " />
           </div>
           <p>Node</p>
         </div>
         <div className="flex justify-center items-center flex-col">
           <div className=" flex justify-center h-12 w-12 bg-heroBg hover:animate-jump hover:bg-white hover:text-orange-400 hover:scale-125 hover:drop-shadow-xl  items-center rounded-3xl  ">
-            <SiHtml5 className=" text-3xl " />
+            <SiHtml5 className=" text-xl " />
           </div>
           <p>HTML</p>
         </div>
         <div className="flex justify-center items-center flex-col">
           <div className=" flex justify-center h-12 w-12 bg-heroBg hover:animate-jump hover:bg-white hover:text-buttonBg hover:scale-125 hover:drop-shadow-xl  items-center rounded-3xl  ">
-            <SiCss3 className=" text-3xl " />
+            <SiCss3 className=" text-xl " />
           </div>
           <p>CSS</p>
         </div>
         <div className="flex justify-center items-center flex-col">
           <div className=" flex justify-center h-12 w-12 bg-heroBg hover:animate-jump hover:bg-white hover:text-blue-400 hover:scale-125 hover:drop-shadow-xl  items-center rounded-3xl  ">
-            <SiTailwindcss className=" text-3xl " />
+            <SiTailwindcss className=" text-xl " />
           </div>
           <p>TailwindCss</p>
         </div>
         <div className="flex justify-center items-center flex-col">
           <div className=" flex justify-center h-12 w-12 bg-heroBg hover:animate-jump hover:bg-white hover:text-mui hover:scale-125 hover:drop-shadow-xl  items-center rounded-3xl  ">
-            <SiMaterialUi className=" text-3xl " />
+            <SiMaterialUi className=" text-xl " />
           </div>
           <p>Material UI</p>
         </div>
         <div className="flex justify-center items-center flex-col">
           <div className=" flex justify-center h-12 w-12 bg-heroBg hover:animate-jump hover:bg-white hover:text-green-600 hover:scale-125 hover:drop-shadow-xl  items-center rounded-3xl  ">
-            <SiMongodb className=" text-3xl " />
+            <SiMongodb className=" text-xl " />
           </div>
           <p>MongoDB</p>
         </div>
         <div className="flex justify-center items-center flex-col">
           <div className=" flex justify-center h-12 w-12 bg-heroBg hover:animate-jump hover:bg-white hover:text-purple-400 hover:scale-125 hover:drop-shadow-xl  items-center rounded-3xl  ">
-            <SiRedux className=" text-3xl " />
+            <SiRedux className=" text-xl " />
           </div>
           <p>Redux</p>
         </div>
         <div className="flex justify-center items-center flex-col">
           <div className=" flex justify-center h-12 w-12 bg-heroBg hover:animate-jump hover:bg-white hover:text-buttonBg hover:scale-125 hover:drop-shadow-xl  items-center rounded-3xl  ">
-            <SiPostgresql className=" text-3xl " />
+            <SiPostgresql className=" text-xl " />
           </div>
           <p>PostgreSQL</p>
         </div>
         <div className="flex justify-center items-center flex-col">
           <div className=" flex justify-center h-12 w-12 bg-heroBg hover:animate-jump hover:bg-white hover:text-buttonBg hover:scale-125 hover:drop-shadow-xl  items-center rounded-3xl  ">
-            <FaJava className=" text-3xl " />
+            <FaJava className=" text-xl " />
           </div>
           <p>Java</p>
         </div>
-
         <div className="flex justify-center items-center flex-col">
           <div className=" flex justify-center h-12 w-12 bg-heroBg hover:animate-jump hover:bg-white hover:text-buttonBg hover:scale-125 hover:drop-shadow-xl  items-center rounded-3xl  ">
             <Image
@@ -124,7 +124,7 @@ const Skills = () => {
         </div>
         <div className="flex justify-center items-center flex-col">
           <div className=" flex justify-center h-12 w-12 bg-heroBg hover:animate-jump hover:bg-white hover:text-buttonBg hover:scale-125 hover:drop-shadow-xl  items-center rounded-3xl  ">
-            <SiFigma className=" text-3xl " />
+            <SiFigma className=" text-xl " />
           </div>
           <p>Figma</p>
         </div>
@@ -142,27 +142,45 @@ const Skills = () => {
         </div>
         <div className="flex justify-center items-center flex-col">
           <div className=" flex justify-center h-12 w-12 bg-heroBg hover:animate-jump hover:bg-white hover:scale-125 hover:drop-shadow-xl  items-center rounded-3xl  ">
-            <SiSplunk className=" text-3xl " />
+            <SiSplunk className=" text-xl " />
           </div>
           <p>Splunk</p>
         </div>
         <div className="flex justify-center items-center flex-col">
           <div className=" flex justify-center h-12 w-12 bg-heroBg hover:animate-jump hover:bg-white hover:scale-125 hover:drop-shadow-xl  items-center rounded-3xl  ">
-            <SiGithub className=" text-3xl " />
+            <SiGithub className=" text-xl " />
           </div>
           <p>Github</p>
         </div>
         <div className="flex justify-center items-center flex-col">
           <div className=" flex justify-center h-12 w-12 bg-heroBg hover:animate-jump hover:bg-white hover:text-orange-400 hover:scale-125 hover:drop-shadow-xl  items-center rounded-3xl  ">
-            <FaGitlab className=" text-3xl " />
+            <FaGitlab className=" text-xl " />
           </div>
           <p>Gitlab</p>
         </div>
         <div className="flex justify-center items-center flex-col">
           <div className=" flex justify-center h-12 w-12 bg-heroBg hover:animate-jump hover:bg-white hover:text-orange-600 hover:scale-125 hover:drop-shadow-xl  items-center rounded-3xl  ">
-            <SiGit className=" text-3xl " />
+            <SiGit className=" text-xl " />
           </div>
           <p>Git</p>
+        </div>
+        <div className="flex justify-center items-center flex-col">
+          <div className=" flex justify-center h-12 w-12 bg-heroBg hover:animate-jump hover:bg-white hover:text-buttonBg hover:scale-125 hover:drop-shadow-xl  items-center rounded-3xl  ">
+            <SiDocker className=" text-xl " />
+          </div>
+          <p>Docker</p>
+        </div>
+        <div className="flex justify-center items-center flex-col">
+          <div className=" flex justify-center h-12 w-12 bg-heroBg hover:animate-jump hover:bg-white hover:text-buttonBg hover:scale-125 hover:drop-shadow-xl  items-center rounded-3xl  ">
+            <SiKubernetes className=" text-xl " />
+          </div>
+          <p>Kubernetes</p>
+        </div>
+        <div className="flex justify-center items-center flex-col">
+          <div className=" flex justify-center h-12 w-12 bg-heroBg hover:animate-jump hover:bg-white hover:text-buttonBg hover:scale-125 hover:drop-shadow-xl  items-center rounded-3xl  ">
+            <SiAmazonaws className=" text-xl " />
+          </div>
+          <p>Aws</p>
         </div>
       </section>
     </div>
