@@ -2,7 +2,7 @@
 
 import 'normalize.css';
 import Head from 'next/head';
-import { Amita, Roboto_Mono } from 'next/font/google';
+import { Amita, Roboto_Mono, Montserrat } from 'next/font/google';
 
 import './globals.css';
 import { Navbar } from '.';
@@ -26,13 +26,22 @@ const roboto_mono = Roboto_Mono({
   variable: '--font-roboto-mono',
 });
 
+const montserrat = Montserrat({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-montserrat',
+});
+
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${amita.variable} ${roboto_mono.variable}`}>
+    <html
+      lang="en"
+      className={`${amita.variable} ${roboto_mono.variable} ${montserrat.variable}`}
+    >
       <Head>
         <link rel="icon" href="/favicon.ico" />
       </Head>

@@ -21,8 +21,12 @@ module.exports = {
       fontFamily: {
         mono: ['var(--font-roboto-mono)'],
         amita: ['var(--font-amita'],
+        monsterrat: ['var(--font-monsterrat)'],
       },
       colors: {
+        heroTextColor: '#6F74A7',
+        heroBg: '#F6F6F6',
+        buttonBg: '#0252CD',
         white: '#FFFFFF',
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
@@ -73,11 +77,19 @@ module.exports = {
           to: { height: 0 },
         },
       },
+      fontSize: {
+        14: '14px',
+        12: '12px',
+        67: '50px',
+      },
+      letterSpacing: {
+        widest: '.5em',
+      },
       animation: {
         'accordion-down': 'accordion-down 0.2s ease-out',
         'accordion-up': 'accordion-up 0.2s ease-out',
       },
     },
   },
-  plugins: [require('tailwindcss-animate')],
+  plugins: [require('tailwindcss-animated')],
 };

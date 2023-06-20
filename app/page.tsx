@@ -1,16 +1,13 @@
 /** @format */
 
 import Image from 'next/image';
+import { Hero, Skills } from '.';
 
 const Home = () => {
   return (
     <div>
-      {/* <Image
-        alt="lottie"
-        src={'/public/assets/download.png'}
-        width={23}
-        height={23}
-      /> */}
+      <Hero />
+      <Skills />
     </div>
   );
 };

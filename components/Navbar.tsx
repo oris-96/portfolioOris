@@ -3,7 +3,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import { Moon, Menu, X } from 'lucide-react';
+import { Moon, Menu, X, Download } from 'lucide-react';
 
 import {
   Menubar,
@@ -22,11 +22,17 @@ const Navbar = () => {
 
   return (
     <div className="flex justify-center p-4 relative">
-      <Menubar className="flex justify-between max-w-full p-4 h-14 ">
+      <Menubar className="flex lg:justify-between gap-36 max-w-full py-4 h-14 ">
         <div>
           <MenubarMenu>
             <MenubarTrigger>
-              <span className=" font-mono">ORIS</span>{' '}
+              <Image
+                className="object-contain w-36 rounded-lg  "
+                src={'/oris.png'}
+                width={256}
+                height={128}
+                alt="oris"
+              />
             </MenubarTrigger>
           </MenubarMenu>
         </div>
@@ -42,39 +48,34 @@ const Navbar = () => {
 
         <nav className={`${'lg:flex lg:items-center hidden'} `}>
           <MenubarMenu>
-            <MenubarTrigger>Home</MenubarTrigger>
+            <MenubarTrigger className="font-mono">Home</MenubarTrigger>
             <MenubarContent>
               <MenubarItem> Sample 1</MenubarItem>
             </MenubarContent>
           </MenubarMenu>
 
           <MenubarMenu>
-            <MenubarTrigger>Case Studies</MenubarTrigger>
+            <MenubarTrigger className="font-mono">Case Studies</MenubarTrigger>
             <MenubarContent>
               <MenubarItem className=" text-black "> Sample 2</MenubarItem>
             </MenubarContent>
           </MenubarMenu>
 
           <MenubarMenu>
-            <MenubarTrigger>Github</MenubarTrigger>
+            <MenubarTrigger className="font-mono">Github</MenubarTrigger>
             <MenubarContent>
               <MenubarItem> Sample 3</MenubarItem>
             </MenubarContent>
           </MenubarMenu>
 
           <MenubarMenu>
-            <MenubarTrigger>Contact</MenubarTrigger>
+            <MenubarTrigger className="font-mono">Contact</MenubarTrigger>
           </MenubarMenu>
 
           <MenubarMenu>
             <MenubarTrigger>
-              <Button>
-                <Image
-                  src="/assets/download.svg "
-                  width={24}
-                  height={22}
-                  alt="download"
-                />
+              <Button className="font-mono">
+                <Download />
                 Resume
               </Button>
             </MenubarTrigger>
@@ -86,7 +87,9 @@ const Navbar = () => {
 
       <section
         className={` ${
-          menuOpen ? 'bg-white w-screen absolute top-40' : 'hidden'
+          menuOpen
+            ? ' animate-fade-down bg-white w-screen absolute top-40'
+            : 'hidden'
         } lg:hidden`}
       >
         <ul
