@@ -18,6 +18,7 @@ module.exports = {
       width: {
         800: '100%',
         30: '30rem',
+        20: '20rem',
         13: '13rem',
       },
       height: {
@@ -33,6 +34,7 @@ module.exports = {
         heroTextColor: '#6F74A7',
         heroBg: '#F6F6F6',
         headerColor: '#151E2C',
+        expBg: '#E7E7E7',
         workBg: '#151E2C',
         buttonBg: '#0252CD',
         ts: '#3178C6',

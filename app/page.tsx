@@ -1,6 +1,5 @@
 /** @format */
 
-import Image from 'next/image';
 import { Hero, Services, Skills } from '.';
 
 const Home = () => {

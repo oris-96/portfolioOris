@@ -74,7 +74,7 @@ const Navbar = () => {
 
           <MenubarMenu>
             <MenubarTrigger>
-              <Button className="font-mono">
+              <Button className="font-mono bg-buttonBg">
                 <Download />
                 Resume
               </Button>
