@@ -17,10 +17,12 @@ module.exports = {
     extend: {
       width: {
         800: '100%',
+        30: '30rem',
         13: '13rem',
       },
       height: {
         18: '18rem',
+        24: '24rem',
       },
       fontFamily: {
         mono: ['var(--font-roboto-mono)'],
@@ -31,6 +33,7 @@ module.exports = {
         heroTextColor: '#6F74A7',
         heroBg: '#F6F6F6',
         headerColor: '#151E2C',
+        workBg: '#151E2C',
         buttonBg: '#0252CD',
         ts: '#3178C6',
         mui: '#0081CB',
@@ -89,6 +92,7 @@ module.exports = {
         14: '14px',
         12: '12px',
         67: '50px',
+        30: '30px',
       },
       letterSpacing: {
         widest: '.5em',
