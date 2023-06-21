@@ -1,6 +1,6 @@
 /** @format */
 
-import { Hero, Services, Skills } from '.';
+import { FeaturedProjectsList, Hero, Services, Skills } from '.';
 
 const Home = () => {
   return (
@@ -8,6 +8,7 @@ const Home = () => {
       <Hero />
       <Skills />
       <Services />
+      <FeaturedProjectsList />
     </div>
   );
 };

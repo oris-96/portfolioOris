@@ -16,7 +16,8 @@ module.exports = {
     },
     extend: {
       width: {
-        800: '100%',
+        100: '100%',
+        70: '70%',
         30: '30rem',
         20: '20rem',
         13: '13rem',
@@ -37,6 +38,10 @@ module.exports = {
         expBg: '#E7E7E7',
         workBg: '#151E2C',
         buttonBg: '#0252CD',
+        projectRentBg: '#5F9FFE',
+        projectJobBg: '#56B0B9',
+        projectTrip: '#1F1D2B',
+        projectBtnBg: 'rgba(255, 255, 255, 0.2)',
         ts: '#3178C6',
         mui: '#0081CB',
         react: '#53C1DE',

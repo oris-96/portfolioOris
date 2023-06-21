@@ -8,6 +8,8 @@ import Services from '@/components/Services';
 import WorkExperienceCard from '@/components/WorkExperienceCard';
 import Experience from '@/components/Experience';
 import ExperienceList from '@/components/ExperienceList';
+import FeaturedProjects from '@/components/FeaturedProjects';
+import FeaturedProjectsList from '@/components/FeaturedProjectsList';
 
 export {
   Navbar,
@@ -18,4 +20,6 @@ export {
   WorkExperienceCard,
   Experience,
   ExperienceList,
+  FeaturedProjects,
+  FeaturedProjectsList,
 }; 
