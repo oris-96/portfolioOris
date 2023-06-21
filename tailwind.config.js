@@ -36,6 +36,7 @@ module.exports = {
         heroBg: '#F6F6F6',
         headerColor: '#151E2C',
         expBg: '#E7E7E7',
+        iconBg: '#9D9D9D',
         workBg: '#151E2C',
         buttonBg: '#0252CD',
         projectRentBg: '#5F9FFE',
@@ -99,7 +100,9 @@ module.exports = {
         14: '14px',
         12: '12px',
         67: '50px',
+        25: '25px',
         30: '30px',
+        10: '10px',
       },
       letterSpacing: {
         widest: '.5em',

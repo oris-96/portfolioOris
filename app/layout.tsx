@@ -6,6 +6,7 @@ import { Amita, Roboto_Mono, Montserrat } from 'next/font/google';
 
 import './globals.css';
 import { Navbar } from '.';
+import { Footer } from '.';
 
 export const metadata = {
   title: `Ibrahim's portfolio`,
@@ -49,6 +50,7 @@ export default function RootLayout({
       <body>
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
