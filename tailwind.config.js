@@ -41,6 +41,8 @@ module.exports = {
         tripBg: '#DAE4FF',
         caseBg: '#FFEDFE',
         caseTextColor: '#312E81',
+        casebannerBg: '#F5F6FB',
+        casebannerTextColor: '#9191BC',
         workBg: '#151E2C',
         buttonBg: '#0252CD',
         projectRentBg: '#5F9FFE',
@@ -107,6 +109,7 @@ module.exports = {
         25: '25px',
         30: '30px',
         10: '10px',
+        8: '8px',
       },
       letterSpacing: {
         widest: '.5em',

@@ -73,7 +73,13 @@ const Navbar = () => {
           </MenubarMenu>
 
           <MenubarMenu>
-            <MenubarTrigger className="font-mono">Github</MenubarTrigger>
+            <a
+              href="https://github.com/oris-96"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <MenubarTrigger className="font-mono">Github</MenubarTrigger>
+            </a>
           </MenubarMenu>
 
           <MenubarMenu>

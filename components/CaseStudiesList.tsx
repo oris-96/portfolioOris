@@ -9,6 +9,7 @@ interface ICaseStudy {
   bgColor: string;
   title: string;
   description: string;
+  link?: string;
 }
 
 const caseStudies: ICaseStudy[] = [
@@ -18,6 +19,7 @@ const caseStudies: ICaseStudy[] = [
     bgColor: 'bg-caseBg',
     title: 'Morrent',
     description: 'Car Rent Application',
+    link: '/case-studies/details-morent',
   },
   {
     imageSrc: '/jobitcase.png',
@@ -25,6 +27,7 @@ const caseStudies: ICaseStudy[] = [
     bgColor: 'bg-jobitBg',
     title: 'Jobit',
     description: 'Job Finding Application',
+    link: '/case-studies/details-jobit',
   },
   {
     imageSrc: '/triplaptop.png',

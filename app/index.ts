@@ -13,6 +13,7 @@ import FeaturedProjectsList from '@/components/FeaturedProjectsList';
 import CaseStudiesCard from '@/components/CaseStudiesCard';
 import Footer from '@/components/Footer';
 import CaseStudiesList from '@/components/CaseStudiesList';
+import CaseDetails from '@/components/CaseDetails';
 
 export {
   Navbar,
@@ -24,6 +25,7 @@ export {
   WorkExperienceCard,
   Experience,
   CaseStudiesCard,
+  CaseDetails,
   CaseStudiesList,
   ExperienceList,
   FeaturedProjects,

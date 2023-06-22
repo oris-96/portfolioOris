@@ -1,9 +1,14 @@
 /** @format */
 
+import CaseDetails from '@/components/CaseDetails';
 import React from 'react';
 
 const page = () => {
-  return <div>details morent</div>;
+    return (
+      <div>
+        <CaseDetails />
+      </div>
+    );
 };
 
 export default page;

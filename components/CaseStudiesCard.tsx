@@ -1,6 +1,7 @@
 /** @format */
 
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 interface ICaseStudy {
@@ -9,6 +10,7 @@ interface ICaseStudy {
   bgColor: string;
   title: string;
   description: string;
+  link?: string;
 }
 
 interface CaseStudiesCardProps {
@@ -16,7 +18,7 @@ interface CaseStudiesCardProps {
 }
 
 const CaseStudiesCard: React.FC<CaseStudiesCardProps> = ({
-  caseStudy: { imageSrc, imageAlt, bgColor, title, description },
+  caseStudy: { imageSrc, imageAlt, bgColor, title, description, link },
 }) => {
   return (
     <div className="mb-5">
@@ -32,7 +34,10 @@ const CaseStudiesCard: React.FC<CaseStudiesCardProps> = ({
         />
       </div>
       <div className="p-5">
-        <p className="text-12 font-mono text-caseTextColor ">{title}</p>
+        <Link href={`${link}`}>
+          <p className="text-12 font-mono text-caseTextColor ">{title}</p>
+        </Link>
+
         <p className="text-heroTextColor text-10 ">{description}</p>
       </div>
     </div>
