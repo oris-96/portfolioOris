@@ -76,43 +76,45 @@ const CaseDetails = () => {
           </div>
         </div>
 
-        <div className="p-10">
-          <div className="flex justify-start flex-col ">
-            <p className="text-8">TECHNOLOGIES USED</p>
-            <p className="font-mono">Tech Stack</p>
+        <div className="p-10 mb-11 mt-11">
+          <div className="flex justify-start flex-col  ">
+            <div className=" md:flex md:justify-center lg:flex lg:justify-center md:items-center lg:items-center md:flex-col lg:flex-col  ">
+              <p className="text-8">TECHNOLOGIES USED</p>
+              <p className="font-mono">Tech Stack</p>
+            </div>
 
-            <div className="flex flex-wrap gap-5 mt-4  ">
+            <div className="flex flex-wrap gap-5 mt-4 md:justify-center md:flex lg:flex lg:justify-center  ">
               <div className=" flex justify-center h-12 w-12 bg-heroBg hover:animate-jump hover:bg-white hover:text-yellow-300 hover:scale-125 hover:drop-shadow-xl  items-center rounded-3xl  ">
                 <SiJavascript className=" text-xl " />
               </div>
-              <div className=" flex justify-center h-12 w-12 bg-heroBg hover:animate-jump hover:bg-white hover:text-yellow-300 hover:scale-125 hover:drop-shadow-xl  items-center rounded-3xl  ">
+              <div className=" flex justify-center h-12 w-12 bg-heroBg hover:animate-jump hover:bg-white hover:text-react hover:scale-125 hover:drop-shadow-xl  items-center rounded-3xl  ">
                 <SiReact className=" text-xl " />
               </div>
-              <div className=" flex justify-center h-12 w-12 bg-heroBg hover:animate-jump hover:bg-white hover:text-yellow-300 hover:scale-125 hover:drop-shadow-xl  items-center rounded-3xl  ">
+              <div className=" flex justify-center h-12 w-12 bg-heroBg hover:animate-jump hover:bg-white hover:text-orange-400 hover:scale-125 hover:drop-shadow-xl  items-center rounded-3xl  ">
                 <SiHtml5 className=" text-xl " />
               </div>
-              <div className=" flex justify-center h-12 w-12 bg-heroBg hover:animate-jump hover:bg-white hover:text-yellow-300 hover:scale-125 hover:drop-shadow-xl  items-center rounded-3xl  ">
+              <div className=" flex justify-center h-12 w-12 bg-heroBg hover:animate-jump hover:bg-white hover:text-buttonBg  hover:scale-125 hover:drop-shadow-xl  items-center rounded-3xl  ">
                 <SiCss3 className=" text-xl " />
               </div>
-              <div className=" flex justify-center h-12 w-12 bg-heroBg hover:animate-jump hover:bg-white hover:text-yellow-300 hover:scale-125 hover:drop-shadow-xl  items-center rounded-3xl  ">
+              <div className=" flex justify-center h-12 w-12 bg-heroBg hover:animate-jump hover:bg-white hover:text-blue-400 hover:scale-125 hover:drop-shadow-xl  items-center rounded-3xl  ">
                 <SiTailwindcss className=" text-xl " />
               </div>
-              <div className=" flex justify-center h-12 w-12 bg-heroBg hover:animate-jump hover:bg-white hover:text-yellow-300 hover:scale-125 hover:drop-shadow-xl  items-center rounded-3xl  ">
+              <div className=" flex justify-center h-12 w-12 bg-heroBg hover:animate-jump hover:bg-white  hover:text-green-600 hover:scale-125 hover:drop-shadow-xl  items-center rounded-3xl  ">
                 <SiMongodb className=" text-xl " />
               </div>
-              <div className=" flex justify-center h-12 w-12 bg-heroBg hover:animate-jump hover:bg-white hover:text-yellow-300 hover:scale-125 hover:drop-shadow-xl  items-center rounded-3xl  ">
+              <div className=" flex justify-center h-12 w-12 bg-heroBg hover:animate-jump hover:bg-white hover:text-buttonBg hover:scale-125 hover:drop-shadow-xl  items-center rounded-3xl  ">
                 <SiFigma className=" text-xl " />
               </div>
-              <div className=" flex justify-center h-12 w-12 bg-heroBg hover:animate-jump hover:bg-white hover:text-yellow-300 hover:scale-125 hover:drop-shadow-xl  items-center rounded-3xl  ">
+              <div className=" flex justify-center h-12 w-12 bg-heroBg hover:animate-jump hover:bg-white hover:scale-125 hover:drop-shadow-xl  items-center rounded-3xl  ">
                 <SiGithub className=" text-xl " />
               </div>
-              <div className=" flex justify-center h-12 w-12 bg-heroBg hover:animate-jump hover:bg-white hover:text-yellow-300 hover:scale-125 hover:drop-shadow-xl  items-center rounded-3xl  ">
+              <div className=" flex justify-center h-12 w-12 bg-heroBg hover:animate-jump hover:bg-white hover:text-green-300 hover:scale-125 hover:drop-shadow-xl  items-center rounded-3xl  ">
                 <FaNodeJs className=" text-xl " />
               </div>
-              <div className=" flex justify-center h-12 w-12 bg-heroBg hover:animate-jump hover:bg-white hover:text-yellow-300 hover:scale-125 hover:drop-shadow-xl  items-center rounded-3xl  ">
+              <div className=" flex justify-center h-12 w-12 bg-heroBg hover:animate-jump hover:bg-white  hover:text-orange-600 hover:scale-125 hover:drop-shadow-xl  items-center rounded-3xl  ">
                 <SiGit className=" text-xl " />
               </div>
-              <div className=" flex justify-center h-12 w-12 bg-heroBg hover:animate-jump hover:bg-white hover:text-yellow-300 hover:scale-125 hover:drop-shadow-xl  items-center rounded-3xl  ">
+              <div className=" flex justify-center h-12 w-12 bg-heroBg hover:animate-jump hover:bg-white hover:scale-125 hover:drop-shadow-xl  items-center rounded-3xl  ">
                 <Image
                   src={'/next.svg'}
                   className=" h-6 "
@@ -121,7 +123,7 @@ const CaseDetails = () => {
                   alt="express"
                 />
               </div>
-              <div className=" flex justify-center h-12 w-12 bg-heroBg hover:animate-jump hover:bg-white hover:text-yellow-300 hover:scale-125 hover:drop-shadow-xl  items-center rounded-3xl  ">
+              <div className=" flex justify-center h-12 w-12 bg-heroBg hover:animate-jump hover:bg-white hover:scale-125 hover:drop-shadow-xl  items-center rounded-3xl  ">
                 <Image
                   src={'/express.svg'}
                   className=" h-3 "
@@ -133,6 +135,37 @@ const CaseDetails = () => {
             </div>
           </div>
         </div>
+        <div className="w-screen min-h-min p-10 pl-16 pr-16  bg-casebannerBg ">
+          <div>
+            <p className="text-12 text-start  text-casebannerTextColor">
+              <p>
+                Morent, a cutting-edge car rental application that was developed
+                using the MERN stack. The app boasts a dynamic homepage that
+                showcases featured vehicles, along with convenient pickup and
+                drop-off location options and a comprehensive list of available
+                cars.
+              </p>
+              <br />
+              <p>
+                My team and I also developed the car listing page which offers a
+                search bar and various filtering options for users to find the
+                perfect vehicle. Additionally, it has a car details page which
+                provides users with detailed information along with suggestions
+                for other recommended vehicles.
+              </p>
+              <br />
+              <p>
+                Car owners are also able to list their cars for rent through our
+                Add Car page, while users can easily track their rented and
+                rented-out cars through their profile page. Overall, we've
+                created an intuitive and user-friendly MVP version of the
+                platform that will make renting a car a breeze.
+              </p>
+            </p>
+          </div>
+        </div>
+
+        <div></div>
       </div>
     </div>
   );
