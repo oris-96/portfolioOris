@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
+import Link from 'next/link';
 
 import FeaturedProjects from './FeaturedProjects';
 import { Button } from './ui/button';
@@ -56,7 +57,9 @@ const FeaturedProjectsList = () => {
       </div>
       <div className="flex justify-center my-5 ">
         <Button className="bg-buttonBg rounded-full">
-          <span className="text-12"> See More Case Studies </span>
+          <Link href="/case-studies">
+            <span className="text-12">See More Case Studies</span>
+          </Link>
           <ArrowRight className="w-5" />
         </Button>
       </div>

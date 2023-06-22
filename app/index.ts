@@ -10,7 +10,9 @@ import Experience from '@/components/Experience';
 import ExperienceList from '@/components/ExperienceList';
 import FeaturedProjects from '@/components/FeaturedProjects';
 import FeaturedProjectsList from '@/components/FeaturedProjectsList';
+import CaseStudiesCard from '@/components/CaseStudiesCard';
 import Footer from '@/components/Footer';
+import CaseStudiesList from '@/components/CaseStudiesList';
 
 export {
   Navbar,
@@ -21,6 +23,8 @@ export {
   Services,
   WorkExperienceCard,
   Experience,
+  CaseStudiesCard,
+  CaseStudiesList,
   ExperienceList,
   FeaturedProjects,
   FeaturedProjectsList,

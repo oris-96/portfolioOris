@@ -14,6 +14,7 @@ import {
 } from './ui/menubar';
 import { Button } from './ui/button';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -48,24 +49,30 @@ const Navbar = () => {
 
         <nav className={`${'lg:flex lg:items-center hidden'} `}>
           <MenubarMenu>
-            <MenubarTrigger className="font-mono">Home</MenubarTrigger>
+            <Link href="/">
+              <MenubarTrigger className="font-mono">Home</MenubarTrigger>
+            </Link>
             <MenubarContent>
               <MenubarItem> Sample 1</MenubarItem>
             </MenubarContent>
           </MenubarMenu>
 
           <MenubarMenu>
-            <MenubarTrigger className="font-mono">Case Studies</MenubarTrigger>
+            <Link href="/case-studies">
+              <MenubarTrigger className="font-mono">
+                Case Studies
+              </MenubarTrigger>
+            </Link>
+
             <MenubarContent>
-              <MenubarItem className=" text-black "> Sample 2</MenubarItem>
+              <MenubarItem className=" text-black "> Morrent </MenubarItem>
+              <MenubarItem className=" text-black "> Jobit </MenubarItem>
+              <MenubarItem className=" text-black "> Trip Guide </MenubarItem>
             </MenubarContent>
           </MenubarMenu>
 
           <MenubarMenu>
             <MenubarTrigger className="font-mono">Github</MenubarTrigger>
-            <MenubarContent>
-              <MenubarItem> Sample 3</MenubarItem>
-            </MenubarContent>
           </MenubarMenu>
 
           <MenubarMenu>
@@ -95,8 +102,12 @@ const Navbar = () => {
         <ul
           className={` ${'flex flex-col space-y-5 justify-center items-center min-h-[250px]'} `}
         >
-          <li className="hover:underline">Home</li>
-          <li className="hover:underline"> Case Studies </li>
+          <Link href="/">
+            <li className="hover:underline">Home</li>
+          </Link>
+          <Link href="/case-studies">
+            <li className="hover:underline"> Case Studies </li>
+          </Link>
           <li className="hover:underline"> Github </li>
           <li className="hover:underline"> Contact </li>
           <li className="hover:underline">Resume</li>
