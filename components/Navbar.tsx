@@ -52,9 +52,6 @@ const Navbar = () => {
             <Link href="/">
               <MenubarTrigger className="font-mono">Home</MenubarTrigger>
             </Link>
-            <MenubarContent>
-              <MenubarItem> Sample 1</MenubarItem>
-            </MenubarContent>
           </MenubarMenu>
 
           <MenubarMenu>
@@ -65,8 +62,12 @@ const Navbar = () => {
             </Link>
 
             <MenubarContent>
-              <MenubarItem className=" text-black "> Morrent </MenubarItem>
-              <MenubarItem className=" text-black "> Jobit </MenubarItem>
+              <Link href="/case-studies/details-morent">
+                <MenubarItem className=" text-black "> Morrent </MenubarItem>
+              </Link>
+              <Link href="/case-studies/details-jobit">
+                <MenubarItem className=" text-black "> Jobit </MenubarItem>
+              </Link>
               <MenubarItem className=" text-black "> Trip Guide </MenubarItem>
             </MenubarContent>
           </MenubarMenu>
