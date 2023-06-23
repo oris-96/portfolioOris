@@ -83,7 +83,9 @@ const Navbar = () => {
           </MenubarMenu>
 
           <MenubarMenu>
-            <MenubarTrigger className="font-mono">Contact</MenubarTrigger>
+            <Link href="/contact">
+              <MenubarTrigger className="font-mono">Contact</MenubarTrigger>
+            </Link>
           </MenubarMenu>
 
           <MenubarMenu>

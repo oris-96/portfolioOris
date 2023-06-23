@@ -6,6 +6,7 @@ import { Linkedin, Globe, Github } from 'lucide-react';
 import Image from 'next/image';
 
 import { Button } from './ui/button';
+import Link from 'next/link';
 
 const Footer = () => {
   return (
@@ -16,9 +17,11 @@ const Footer = () => {
             <p className="font-mono text-25 mb-8 ">
               Have a project idea to <br /> collaborate on ?
             </p>
-            <Button className=" rounded-3xl bg-white text-10 ">
-              Contact Us
-            </Button>
+            <Link href="/contact">
+              <Button className=" rounded-3xl bg-white text-10 ">
+                Contact Us
+              </Button>
+            </Link>
           </div>
 
           <div className="hidden md:flex lg:flex">
@@ -27,9 +30,13 @@ const Footer = () => {
         </div>
       </div>
       <div className="flex justify-center gap-4 my-10 ">
-        <Linkedin className=" text-iconBg" />
+        <a href="https://www.linkedin.com/in/iabdulkareem/" target="_blank">
+          <Linkedin className=" text-iconBg" />
+        </a>
         <Globe className=" text-iconBg" />
-        <Github className=" text-iconBg" />
+        <a href="https://github.com/oris-96" target="_blank">
+          <Github className=" text-iconBg" />
+        </a>
       </div>
     </>
   );

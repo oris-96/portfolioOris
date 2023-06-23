@@ -34,7 +34,10 @@ module.exports = {
       },
       colors: {
         heroTextColor: '#6F74A7',
-        challengesColor: ' #E15A46',
+        contactBg: '#FAF8FC',
+        challengesColor: '#E15A46',
+        mailColor: '#515580',
+        sendBg: '#312E81',
         heroBg: '#F6F6F6',
         userFlowBg: '#E1EFFF',
         headerColor: '#151E2C',
