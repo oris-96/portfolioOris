@@ -191,10 +191,10 @@ const CaseDetails = () => {
           <p className="font-mono text-white ">HIGH-FIDELITY FIGMA DESIGN</p>
         </div>
         <Image
-          className="w-screen"
+          className="w-screen shrink-0 object-contain"
           src="/rentfigma.png"
-          width={256}
-          height={128}
+          width={1256}
+          height={1008}
           alt="highfidelity"
         />
 
@@ -246,6 +246,189 @@ const CaseDetails = () => {
         </div>
         <div>
           <UserFlow />
+        </div>
+
+        <div className="p-10 mb-11 mt-11 w-screen min-h-min pl-16 pr-16  bg-casebannerBg">
+          <div className="flex justify-start flex-col  ">
+            <div className=" mb-5 md:flex md:justify-center lg:flex lg:justify-center md:items-center lg:items-center md:flex-col lg:flex-col  ">
+              <p className="text-8">IMAGES</p>
+              <p className="font-mono">Product</p>
+            </div>
+            <div className="flex justify-center items-center flex-col ">
+              <div className="flex justify-center">
+                <Image
+                  src="/rentLap.png"
+                  width={256}
+                  height={128}
+                  className="w-72"
+                  alt="laptop"
+                />
+                <Image
+                  src="/rentcase.svg"
+                  width={256}
+                  height={128}
+                  className="w-16 mt-10 "
+                  alt="laptop"
+                />
+              </div>
+
+              <div className="mt-4">
+                <a href="#">
+                  <p className="text-10 text-buttonBg  ">
+                    See Demo Site
+                    <span>
+                      <ArrowRight className=" inline w-3 " />
+                    </span>
+                  </p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className=" p-10 ">
+          <div className="flex justify-start flex-col  ">
+            <div className=" mb-5 md:flex md:justify-center lg:flex lg:justify-center md:items-center lg:items-center md:flex-col lg:flex-col  ">
+              <p className="text-8">LEARNINGS & CHALLENGES</p>
+              <p className="font-mono">TAKEAWAYS</p>
+            </div>
+
+            <div className=" min-w-[250px] rounded-lg min-h-min p-10 mb-4  bg-casebannerBg ">
+              <div>
+                <p className="text-8 text-green-500 mb-4 ">LEARNINGS</p>
+
+                <div className="flex flex-col">
+                  <div className="flex gap-2 items-start ">
+                    <span>
+                      <Image
+                        className="w-5 h-5 "
+                        src="/check.svg"
+                        width={256}
+                        height={128}
+                        alt="delivery"
+                      />
+                    </span>
+                    <p className="text-8 mt-1 text-heroTextColor  ">
+                      Gained extensive knowledge of full authentication and
+                      authorization implementation, including the use of
+                      industry-standard security protocols such as JSON Web
+                      Tokens (JWT).
+                    </p>
+                  </div>
+                  <div className="flex gap-2 mt-3 items-start ">
+                    <span>
+                      <Image
+                        className="w-5 h-5 "
+                        src="/check.svg"
+                        width={256}
+                        height={128}
+                        alt="delivery"
+                      />
+                    </span>
+                    <p className="text-8 mt-1 text-heroTextColor  ">
+                      Sharpened my backend skills, specifically in optimizing
+                      database queries, improving performance, and handling
+                      server-side logic.
+                    </p>
+                  </div>
+                  <div className="flex gap-2 mt-3 items-start ">
+                    <span>
+                      <Image
+                        className="w-5 h-5 "
+                        src="/check.svg"
+                        width={256}
+                        height={128}
+                        alt="delivery"
+                      />
+                    </span>
+                    <p className="text-8 mt-1 text-heroTextColor  ">
+                      Learned how to properly handle files, including file
+                      upload, storage, and retrieval, ensuring that the apps
+                      data is organized and easily accessible while keeping it
+                      secure.
+                    </p>
+                  </div>
+                  <div className="flex gap-2 mt-3 items-start ">
+                    <span>
+                      <Image
+                        className="w-5 h-5 "
+                        src="/check.svg"
+                        width={256}
+                        height={128}
+                        alt="delivery"
+                      />
+                    </span>
+                    <p className="text-8 mt-1 text-heroTextColor  ">
+                      Acquired proficiency in NextJS and implemented various
+                      features utilizing industry-standard best practices.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className=" min-w-[250px] rounded-lg min-h-min p-10 mb-4  bg-casebannerBg ">
+              <div>
+                <p className="text-8 text-challengesColor mb-4 ">CHALLENGES</p>
+
+                <div className="flex flex-col">
+                  <div className="flex gap-2 items-start ">
+                    <span>
+                      <Image
+                        className="w-5 h-5 "
+                        src="/octgoal.svg"
+                        width={256}
+                        height={128}
+                        alt="pointer"
+                      />
+                    </span>
+                    <p className="text-8 mt-1 text-heroTextColor  ">
+                      As we developed Morent, our team encountered various
+                      obstacles. One of our biggest challenges was choosing the
+                      right tools and technologies for the project.
+                    </p>
+                  </div>
+                  <div className="flex gap-2 mt-3 items-start ">
+                    <div>
+                      <span>
+                        <Image
+                          className="w-5 h-5 "
+                          src="/octgoal.svg"
+                          width={256}
+                          height={128}
+                          alt="pointer"
+                        />
+                      </span>
+                    </div>
+
+                    <p className="text-8 mt-1 text-heroTextColor  ">
+                      We conducted brainstorming and carefully weighed our
+                      options before making a decision. Furthermore, using
+                      NextJS was a new experience for us, and we encountered
+                      difficulties while implementing its features. Finally, we
+                      had to work under time constraints, which added pressure
+                      to the project.
+                    </p>
+                  </div>
+                  <div className="flex gap-2 mt-3 items-start ">
+                    <span>
+                      <Image
+                        className="w-5 h-5 "
+                        src="/octgoal.svg"
+                        width={256}
+                        height={128}
+                        alt="pointer"
+                      />
+                    </span>
+                    <p className="text-8 mt-1 text-heroTextColor  ">
+                      However, we collaborated effectively to overcome these
+                      obstacles and ultimately delivered a high-quality product
+                      within the given timeline.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

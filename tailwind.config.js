@@ -34,6 +34,7 @@ module.exports = {
       },
       colors: {
         heroTextColor: '#6F74A7',
+        challengesColor: ' #E15A46',
         heroBg: '#F6F6F6',
         userFlowBg: '#E1EFFF',
         headerColor: '#151E2C',
