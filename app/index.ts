@@ -14,6 +14,8 @@ import CaseStudiesCard from '@/components/CaseStudiesCard';
 import Footer from '@/components/Footer';
 import CaseStudiesList from '@/components/CaseStudiesList';
 import CaseDetails from '@/components/CaseDetails';
+import UserFlow from '@/components/UserFlow';
+import UserFlowCard from '@/components/UserFlowCard';
 
 export {
   Navbar,
@@ -25,7 +27,9 @@ export {
   WorkExperienceCard,
   Experience,
   CaseStudiesCard,
+  UserFlowCard,
   CaseDetails,
+  UserFlow,
   CaseStudiesList,
   ExperienceList,
   FeaturedProjects,

@@ -25,6 +25,7 @@ module.exports = {
       height: {
         18: '18rem',
         24: '24rem',
+        40: '80%',
       },
       fontFamily: {
         mono: ['var(--font-roboto-mono)'],
@@ -34,6 +35,7 @@ module.exports = {
       colors: {
         heroTextColor: '#6F74A7',
         heroBg: '#F6F6F6',
+        userFlowBg: '#E1EFFF',
         headerColor: '#151E2C',
         expBg: '#E7E7E7',
         iconBg: '#9D9D9D',
@@ -48,6 +50,7 @@ module.exports = {
         projectRentBg: '#5F9FFE',
         projectJobBg: '#56B0B9',
         projectTrip: '#1F1D2B',
+        processBg: '#DEE7FF',
         projectBtnBg: 'rgba(255, 255, 255, 0.2)',
         ts: '#3178C6',
         mui: '#0081CB',

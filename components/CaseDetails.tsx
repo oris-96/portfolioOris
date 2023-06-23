@@ -13,6 +13,7 @@ import { SiFigma } from '@react-icons/all-files/si/SiFigma';
 import { SiGithub } from '@react-icons/all-files/si/SiGithub';
 import { FaNodeJs } from '@react-icons/all-files/fa/FaNodeJs';
 import { SiGit } from '@react-icons/all-files/si/SiGit';
+import UserFlow from './UserFlow';
 
 const CaseDetails = () => {
   return (
@@ -145,6 +146,7 @@ const CaseDetails = () => {
                 drop-off location options and a comprehensive list of available
                 cars.
               </p>
+
               <br />
               <p>
                 My team and I also developed the car listing page which offers a
@@ -165,7 +167,86 @@ const CaseDetails = () => {
           </div>
         </div>
 
-        <div></div>
+        <div className="p-14 mb-11 mt-11">
+          <div className="flex justify-start flex-col  ">
+            <div className=" md:flex md:justify-center lg:flex lg:justify-center md:items-center lg:items-center md:flex-col lg:flex-col  ">
+              <p className="text-8">Problem</p>
+              <p className="font-mono">Problem Statement</p>
+            </div>
+            <p className="text-12 text-start mt-3  text-casebannerTextColor">
+              One of the main problems that people face when looking to rent a
+              car is the hassle of finding a reliable and user-friendly platform
+              to search for and book rental cars. In addition, car owners who
+              want to rent out their vehicles often struggle to find a suitable
+              platform to list their cars and manage their rentals.
+            </p>
+
+            <div className="flex justify-center mt-14 scale-125 ">
+              <Image src="/cartax.png" width={256} height={128} alt="car" />
+            </div>
+          </div>
+        </div>
+
+        <div className="flex justify-center bg-buttonBg items-center w-screen h-20 ">
+          <p className="font-mono text-white ">HIGH-FIDELITY FIGMA DESIGN</p>
+        </div>
+        <Image
+          className="w-screen"
+          src="/rentfigma.png"
+          width={256}
+          height={128}
+          alt="highfidelity"
+        />
+
+        <div className="flex justify-center">
+          <div className="flex flex-col justify-center mt-7">
+            <p className=" my-10 font-mono text-center "> My Process </p>
+            <div className=" flex gap-6 md:gap-10 lg:gap-14 ">
+              <div className="bg-processBg flex justify-center items-center rounded-full w-14 h-14 ">
+                <Image
+                  className="w-5 h-5"
+                  src="/discovery.png"
+                  width={256}
+                  height={128}
+                  alt="definition"
+                />
+              </div>
+
+              <div className="bg-processBg flex justify-center items-center rounded-full w-14 h-14 ">
+                <Image
+                  className="w-5 h-5 "
+                  src="/copywriting.png"
+                  width={256}
+                  height={128}
+                  alt="planning"
+                />
+              </div>
+
+              <div className="bg-processBg flex justify-center items-center rounded-full w-14 h-14 ">
+                <Image
+                  className="w-5 h-5 "
+                  src="/idea.png"
+                  width={256}
+                  height={128}
+                  alt="development"
+                />
+              </div>
+
+              <div className="bg-processBg flex justify-center items-center rounded-full w-14 h-14 ">
+                <Image
+                  className="w-5 h-5 "
+                  src="/design.png"
+                  width={256}
+                  height={128}
+                  alt="delivery"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <UserFlow />
+        </div>
       </div>
     </div>
   );
