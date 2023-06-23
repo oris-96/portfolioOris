@@ -14,7 +14,7 @@ const page = () => {
 
   return (
     <div>
-      <div className=" flex flex-col items-center justify-center p-10 font-mono lg:grid lg:grid-cols-2 ">
+      <div className=" flex mt-6 flex-col items-center justify-center p-10 font-mono lg:grid lg:grid-cols-2 ">
         <section className="flex flex-col mb-8 justify-center items-center">
           <div className="flex flex-col justify-start mb-5">
             <p>Contact</p>

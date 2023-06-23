@@ -90,10 +90,12 @@ const Navbar = () => {
 
           <MenubarMenu>
             <MenubarTrigger>
-              <Button className="font-mono bg-buttonBg">
-                <Download />
-                Resume
-              </Button>
+              <a href="/IBRAHIMABDULKAREEM.pdf" download>
+                <Button className="font-mono bg-buttonBg">
+                  <Download />
+                  Resume
+                </Button>
+              </a>
             </MenubarTrigger>
           </MenubarMenu>
 
