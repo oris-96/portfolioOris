@@ -1,25 +1,56 @@
 /** @format */
 
 import 'normalize.css';
+import Head from 'next/head';
+import { Amita, Roboto_Mono, Montserrat } from 'next/font/google';
 
 import './globals.css';
 import { Navbar } from '.';
+import { Footer } from '.';
 
 export const metadata = {
   title: `Ibrahim's portfolio`,
   description: `Personal Portfolio`,
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
-  return (
-    <html lang="en">
-      <head>
-        <link rel="icon" href="/favicon.ico" />
-      </head>
+const amita = Amita({
+  weight: '700',
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-amita',
+});
 
-      <body className="relative">
+const roboto_mono = Roboto_Mono({
+  weight: '700',
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-roboto-mono',
+});
+
+const montserrat = Montserrat({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-montserrat',
+});
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <html
+      lang="en"
+      className={`${amita.variable} ${roboto_mono.variable} ${montserrat.variable}`}
+    >
+      <Head>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+
+      <body>
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
