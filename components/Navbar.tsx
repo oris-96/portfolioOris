@@ -55,12 +55,7 @@ const Navbar = () => {
           </MenubarMenu>
 
           <MenubarMenu>
-            <Link href="/case-studies">
-              <MenubarTrigger className="font-mono">
-                Case Studies
-              </MenubarTrigger>
-            </Link>
-
+            <MenubarTrigger className="font-mono">Case Studies</MenubarTrigger>
             <MenubarContent>
               <Link href="/case-studies/details-morent">
                 <MenubarItem className=" text-black "> Morrent </MenubarItem>
