@@ -19,7 +19,7 @@ interface IProps {
   detailLink: string;
   bgColor: string;
   images: IProjectImage[];
-  imageSide: 'left' | 'right';
+  imageSide: string;
 }
 
 const FeaturedProjects = ({
@@ -28,7 +28,7 @@ const FeaturedProjects = ({
   detailLink,
   bgColor,
   images,
-  imageSide,
+  imageSide = 'left' || 'right',
 }: IProps): ReactElement => {
   return (
     <div className="lg:flex mt-4 lg:justify-center md:flex md:justify-center">
