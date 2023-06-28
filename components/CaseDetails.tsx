@@ -15,7 +15,38 @@ import { FaNodeJs } from '@react-icons/all-files/fa/FaNodeJs';
 import { SiGit } from '@react-icons/all-files/si/SiGit';
 import UserFlow from './UserFlow';
 
-const CaseDetails = ({
+interface CaseDetailsProps {
+  header: string;
+  startDate: string;
+  endDate: string;
+  firstParagraph: string;
+  secondParagraph: string;
+  thirdParagraph: string;
+  problemStatement: string;
+  firstTakeAway: string;
+  secondTakeAway: string;
+  thirdTakeAway: string;
+  fourthTakeAway: string;
+  firstChallenge: string;
+  secondChallenge: string;
+  thirdChallenge: string;
+  colorTxt: string;
+  colorBg: string;
+  anchor: string;
+  gridOneText: string;
+  gridTwoText: string;
+  gridThreeText: string;
+  gridFourText: string;
+  gridFiveText: string;
+  gridSixText: string;
+  gridSevenText: string;
+  laptopView: string;
+  mobileView: string;
+  problemStatementImage: string;
+  highFidelity: string;
+}
+
+const CaseDetails: React.FC<CaseDetailsProps> = ({
   header,
   startDate,
   endDate,
