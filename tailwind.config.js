@@ -35,6 +35,7 @@ module.exports = {
       colors: {
         heroTextColor: '#6F74A7',
         contactBg: '#FAF8FC',
+        jobitColorTxt: '#0BAB7C',
         challengesColor: '#E15A46',
         mailColor: '#515580',
         sendBg: '#312E81',

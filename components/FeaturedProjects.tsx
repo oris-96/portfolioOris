@@ -2,6 +2,7 @@
 import React, { ReactElement } from 'react';
 import { Button } from './ui/button';
 import Image from 'next/image';
+import Link from 'next/link';
 
 interface ITechnology {
   name: string;
@@ -51,16 +52,18 @@ const FeaturedProjects = ({
             ))}
           </div>
 
-          <div className="flex mt-8 items-center gap-5">
-            <p className=" text-12 text-white ">See Detail Project</p>
-            <Image
-              className="w-7"
-              src={'/arrow.svg'}
-              width={256}
-              height={128}
-              alt="arrow"
-            />
-          </div>
+          <Link href={detailLink}>
+            <div className="flex mt-8 items-center gap-5">
+              <p className=" text-12 text-white ">See Detail Project</p>
+              <Image
+                className="w-7"
+                src={'/arrow.svg'}
+                width={256}
+                height={128}
+                alt="arrow"
+              />
+            </div>
+          </Link>
         </div>
         <div
           className={` ${

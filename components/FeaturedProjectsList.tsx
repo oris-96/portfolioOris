@@ -12,7 +12,7 @@ const projects = [
     title: 'Morrent - A Car Rental Application',
     bgColor: 'bg-projectRentBg',
     technologies: [{ name: 'ReactJS, Next.js' }, { name: 'Nodejs, MongoDB' }],
-    detailLink: '#',
+    detailLink: '/case-studies/details-morent',
     images: [
       { src: '/rentLap.png', alt: 'Laptop Image' },
       { src: '/rentMobile.svg', alt: 'Mobile Image' },
@@ -23,7 +23,7 @@ const projects = [
     title: 'Jobit - A Job Finding Application',
     bgColor: 'bg-projectJobBg',
     technologies: [{ name: 'ReactJS, Next.js' }, { name: 'Nodejs, MongoDB' }],
-    detailLink: '#',
+    detailLink: '/case-studies/details-jobit',
     images: [
       { src: '/jobit.png', alt: 'Laptop Image' },
       { src: '/jobitmob.svg', alt: 'Mobile Image' },
