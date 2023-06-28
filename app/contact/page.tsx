@@ -39,8 +39,7 @@ const Page = () => {
 
       
     } catch (error) {
-      alert('Error Sending a Message' + ' ' + error);
-      console.log(error);
+      alert('Error Sending a Message');
       
     }
   
