@@ -119,9 +119,16 @@ const Navbar = () => {
           <Link href="/case-studies">
             <li className="hover:underline"> Case Studies </li>
           </Link>
-          <li className="hover:underline"> Github </li>
-          <li className="hover:underline"> Contact </li>
-          <li className="hover:underline">Resume</li>
+          <a
+            href="https://github.com/oris-96"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <li className="hover:underline"> Github </li>
+          </a>
+          <Link href="/contact">
+            <li className="hover:underline"> Contact </li>
+          </Link>
         </ul>
       </section>
     </div>
