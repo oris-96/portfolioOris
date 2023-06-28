@@ -4,14 +4,25 @@ import Image from 'next/image';
 import React from 'react';
 import UserFlowCard from './UserFlowCard';
 
-const UserFlow = () => {
+const UserFlow = ({
+  anchor,
+  colorTxt,
+  colorBg,
+  gridOneText,
+  gridTwoText,
+  gridThreeText,
+  gridFourText,
+  gridFiveText,
+  gridSixText,
+  gridSevenText,
+}) => {
   return (
     <div className="p-8 mt-16">
       <div>
         <div className=" flex justify-center items-center rounded-lg bg-buttonBg w-8 h-8  ">
           <Image
             className="w-5"
-            src="/anchor.svg"
+            src={`${anchor}`}
             width={256}
             height={128}
             alt="anchor"
@@ -26,7 +37,17 @@ const UserFlow = () => {
         </p>
       </div>
       <div className="mt-8 pr-7 ">
-        <UserFlowCard />
+        <UserFlowCard
+          colorTxt={colorTxt}
+          colorBg={colorBg}
+          gridOneText={gridOneText}
+          gridTwoText={gridTwoText}
+          gridThreeText={gridThreeText}
+          gridFourText={gridFourText}
+          gridFiveText={gridFiveText}
+          gridSixText={gridSixText}
+          gridSevenText={gridSevenText}
+        />
       </div>
     </div>
   );
