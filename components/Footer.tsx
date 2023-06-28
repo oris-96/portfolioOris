@@ -12,7 +12,7 @@ const Footer = () => {
   return (
     <>
       <div data-aos="fade-up" className="flex justify-center ">
-        <div className=" p-10 md:flex lg:flex justify-between items-center rounded-lg w-100 m-10 h-56 bg-cover bg-no-repeat bg-center bg-[url('/collaborate.png')]">
+        <div className=" p-10 md:flex lg:flex justify-between items-center rounded-lg w-100 m-10 min-h-full bg-cover bg-no-repeat bg-center bg-[url('/collaborate.png')]">
           <div>
             <p className="font-mono text-25 mb-8 ">
               Have a project idea to <br /> collaborate on ?

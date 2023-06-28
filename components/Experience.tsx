@@ -16,7 +16,7 @@ const Experience: React.FC<ExperienceProps> = ({
   iconSrc,
 }) => {
   return (
-    <div className="m-7 hover:drop-shadow-xl flex justify-start">
+    <div className="lg:m-7 md:m-7 ml-24 hover:drop-shadow-xl flex md:justify-start lg:justify-start">
       <div className=" w-30 bg-white flex gap-5 items-center h-20 rounded-lg ">
         <div className="p-4">
           <Image

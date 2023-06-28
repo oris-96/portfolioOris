@@ -48,9 +48,11 @@ export default function RootLayout({
       </Head>
 
       <body>
-        <Navbar />
-        {children}
-        <Footer />
+        <div className=" overflow-hidden ">
+          <Navbar />
+          {children}
+          <Footer />
+        </div>
       </body>
     </html>
   );

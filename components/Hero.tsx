@@ -12,13 +12,13 @@ import Link from 'next/link';
 
 const Hero = () => {
   return (
-    <div className=" p-10 bg-heroBg font-mono lg:grid lg:grid-cols-2 ">
-      <section className="flex flex-col justify-start">
+    <div className="bg-heroBg p-8 min-h-full font-mono lg:items-center lg:grid lg:grid-cols-2 overflow-hidden ">
+      <section className="flex flex-col justify-center">
         <span className=" tracking-widest text-buttonBg ">
           HI, I AM IBRAHIM
         </span>
 
-        <p className="mt-7 text-67">
+        <p className="mt-7 text-30 md:text-67 lg:text-67">
           Professional <br /> <span> Software Engineer </span>
           <br /> Based In USA
         </p>
@@ -44,7 +44,7 @@ const Hero = () => {
             <Github className="w-4" />
           </a>
           <Image
-            className="object-contain w-28 "
+            className="object-contain w-16 md:w-28 lg:w-28 "
             src={'/line-arrow.png'}
             width={256}
             height={128}

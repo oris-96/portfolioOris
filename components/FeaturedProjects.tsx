@@ -31,7 +31,7 @@ const FeaturedProjects = ({
   imageSide = 'left' || 'right',
 }: IProps): ReactElement => {
   return (
-    <div className="lg:flex mt-4 lg:justify-center md:flex md:justify-center">
+    <div className="lg:flex mt-4 lg:justify-center md:flex md:justify-center  ">
       <div
         className={`flex ${bgColor} lg:w-70 justify-between rounded-lg py-9  ${
           imageSide === 'left'
@@ -44,7 +44,7 @@ const FeaturedProjects = ({
             {title}
           </p>
 
-          <div className="flex gap-4">
+          <div className="flex gap-4 mx-auto px-5">
             {technologies.map((tech, index) => (
               <Button key={index} className="bg-projectBtnBg ">
                 <span className="text-12"> {tech.name}</span>
@@ -68,7 +68,7 @@ const FeaturedProjects = ({
         <div
           className={` ${
             imageSide === 'right'
-              ? 'md:flex lg:flex md:flex-row lg:flex-row'
+              ? 'md:flex lg:flex md:flex-row lg:flex-row md:pr-5'
               : 'hidden'
           } md:flex-row lg:flex-row md:flex lg:flex hidden  `}
         >
