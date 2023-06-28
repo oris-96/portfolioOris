@@ -2,7 +2,19 @@
 
 import Image from 'next/image';
 
-const UserFlowCard = ({
+interface UserFlowCardProps {
+  colorTxt: string;
+  colorBg: string;
+  gridOneText: string;
+  gridTwoText: string;
+  gridThreeText: string;
+  gridFourText: string;
+  gridFiveText: string;
+  gridSixText: string;
+  gridSevenText: string;
+}
+
+const UserFlowCard: React.FC<UserFlowCardProps> = ({
   colorTxt,
   colorBg,
   gridOneText,

@@ -4,7 +4,20 @@ import Image from 'next/image';
 import React from 'react';
 import UserFlowCard from './UserFlowCard';
 
-const UserFlow = ({
+interface UserFlowProps {
+  anchor: string;
+  colorTxt: string;
+  colorBg: string;
+  gridOneText: string;
+  gridTwoText: string;
+  gridThreeText: string;
+  gridFourText: string;
+  gridFiveText: string;
+  gridSixText: string;
+  gridSevenText: string;
+}
+
+const UserFlow: React.FC<UserFlowProps> = ({
   anchor,
   colorTxt,
   colorBg,
