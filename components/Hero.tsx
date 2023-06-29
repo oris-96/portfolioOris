@@ -39,7 +39,6 @@ const Hero = () => {
           <a href="https://www.linkedin.com/in/iabdulkareem/" target="_blank">
             <Linkedin className="w-4" />
           </a>
-          <Globe className="w-4" />
           <a href="https://github.com/oris-96" target="_blank">
             <Github className="w-4" />
           </a>
