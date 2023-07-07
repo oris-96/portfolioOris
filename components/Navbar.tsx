@@ -85,7 +85,7 @@ const Navbar = () => {
 
           <MenubarMenu>
             <MenubarTrigger>
-              <a href="/IBRAHIMABDULKAREEM.pdf" download>
+              <a href="/IBRAHIM_ABDULKAREEM23.pdf" download>
                 <Button className="font-mono bg-buttonBg">
                   <Download />
                   Resume
