@@ -44,12 +44,16 @@ interface CaseDetailsProps {
   mobileView: string;
   problemStatementImage: string;
   highFidelity: string;
+  demoSite?: string;
+  sourceCode?: string;
 }
 
 const CaseDetails: React.FC<CaseDetailsProps> = ({
   header,
   startDate,
   endDate,
+  demoSite,
+  sourceCode,
   firstParagraph,
   secondParagraph,
   thirdParagraph,
@@ -102,7 +106,7 @@ const CaseDetails: React.FC<CaseDetailsProps> = ({
         </div>
 
         <div className=" p-10 flex gap-20 justify-center items-center ">
-          <a href="#">
+          <a href={demoSite} target="_blank">
             <p className={`text-10 ${colorTxt} `}>
               Demo Site
               <span>
@@ -110,7 +114,7 @@ const CaseDetails: React.FC<CaseDetailsProps> = ({
               </span>
             </p>
           </a>
-          <a href="#">
+          <a href={sourceCode} target="_blank">
             <p className={`text-10 ${colorTxt}`}>
               Source Code
               <ArrowRight className=" inline w-3 " />

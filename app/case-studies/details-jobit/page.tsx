@@ -9,6 +9,8 @@ const page = () => {
         header=" Job - A Job Finder Application"
         startDate="01/01/2023"
         endDate="02/02/2023"
+        demoSite="https://cohort4-web-nerds-job-it.vercel.app/"
+        sourceCode="https://github.com/JavaScript-Mastery-PRO/Cohort4_Storm_JobIt"
         firstParagraph=" JobIt, an advanced job search platform, leverages the power of the MERN stack to deliver robust, reliable, and real-time job seeking solutions. The application features a dynamic homepage that highlights trending job opportunities, combined with highly customizable search parameters like job role, location, salary range, and industry."
         secondParagraph="My team and I designed the job listing page on JobIt, which offers a dynamic search bar and a multitude of filtering options for users to find the perfect job that fits their qualifications and preferences. These filters could be set based on job title, location, salary range, industry, and more to refine the job search experience."
         thirdParagraph="Additionally, we created a comprehensive job details page which provides users with in-depth information about each job listing. This includes details about the job role, company, requirements, benefits, and how to apply. For enhanced user experience, the job details page also offers suggestions for other recommended jobs based on the user's search and profile, further assisting users in their job search journey."
