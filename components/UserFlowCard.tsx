@@ -3,7 +3,11 @@
 import Image from 'next/image';
 import React from 'react';
 
-const UserFlowCard = ({ imgUrl }) => {
+interface CardImageLink {
+  imgUrl: string;
+}
+
+const UserFlowCard: React.FC<CardImageLink> = ({ imgUrl }) => {
   return (
     <div className="flex justify-center">
       <Image
