@@ -46,6 +46,7 @@ interface CaseDetailsProps {
   highFidelity: string;
   demoSite?: string;
   sourceCode?: string;
+  imgUrl: string;
 }
 
 const CaseDetails: React.FC<CaseDetailsProps> = ({
@@ -68,13 +69,7 @@ const CaseDetails: React.FC<CaseDetailsProps> = ({
   colorTxt,
   colorBg,
   anchor,
-  gridOneText,
-  gridTwoText,
-  gridThreeText,
-  gridFourText,
-  gridFiveText,
-  gridSixText,
-  gridSevenText,
+  imgUrl,
   laptopView,
   mobileView,
   problemStatementImage,
@@ -292,18 +287,7 @@ const CaseDetails: React.FC<CaseDetailsProps> = ({
           </div>
         </div>
         <div>
-          <UserFlow
-            anchor={anchor}
-            colorTxt={colorTxt}
-            colorBg={colorBg}
-            gridOneText={gridOneText}
-            gridTwoText={gridTwoText}
-            gridThreeText={gridThreeText}
-            gridFourText={gridFourText}
-            gridFiveText={gridFiveText}
-            gridSixText={gridSixText}
-            gridSevenText={gridSevenText}
-          />
+          <UserFlow anchor={anchor} imgUrl={imgUrl} />
         </div>
 
         <div className="p-10 mb-11 mt-11 w-screen min-h-min pl-16 pr-16  bg-casebannerBg">

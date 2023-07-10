@@ -69,6 +69,7 @@ const page = () => {
         mobileView="/rentcase.svg"
         problemStatementImage="/cartax.png"
         highFidelity="/rentfigma.png"
+        imgUrl="/userFlow.svg"
       />
     </div>
   );

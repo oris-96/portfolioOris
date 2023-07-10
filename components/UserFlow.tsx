@@ -6,29 +6,10 @@ import UserFlowCard from './UserFlowCard';
 
 interface UserFlowProps {
   anchor: string;
-  colorTxt: string;
-  colorBg: string;
-  gridOneText: string;
-  gridTwoText: string;
-  gridThreeText: string;
-  gridFourText: string;
-  gridFiveText: string;
-  gridSixText: string;
-  gridSevenText: string;
+  imgUrl: string;
 }
 
-const UserFlow: React.FC<UserFlowProps> = ({
-  anchor,
-  colorTxt,
-  colorBg,
-  gridOneText,
-  gridTwoText,
-  gridThreeText,
-  gridFourText,
-  gridFiveText,
-  gridSixText,
-  gridSevenText,
-}) => {
+const UserFlow: React.FC<UserFlowProps> = ({ anchor, imgUrl }) => {
   return (
     <div className="p-8 mt-16">
       <div>
@@ -50,17 +31,7 @@ const UserFlow: React.FC<UserFlowProps> = ({
         </p>
       </div>
       <div className="mt-8 pr-7 ">
-        <UserFlowCard
-          colorTxt={colorTxt}
-          colorBg={colorBg}
-          gridOneText={gridOneText}
-          gridTwoText={gridTwoText}
-          gridThreeText={gridThreeText}
-          gridFourText={gridFourText}
-          gridFiveText={gridFiveText}
-          gridSixText={gridSixText}
-          gridSevenText={gridSevenText}
-        />
+        <UserFlowCard imgUrl={imgUrl} />
       </div>
     </div>
   );

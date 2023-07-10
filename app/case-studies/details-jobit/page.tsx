@@ -36,6 +36,7 @@ const page = () => {
         mobileView="/jobitmobile.png"
         problemStatementImage="/cartax.png"
         highFidelity="/jobitthumb.png"
+        imgUrl="/userFlow.svg"
       />
     </div>
   );
