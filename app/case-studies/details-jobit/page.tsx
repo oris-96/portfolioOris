@@ -34,9 +34,9 @@ const page = () => {
         gridSevenText="Company Details"
         laptopView="/jobitcase.png"
         mobileView="/jobitmobile.png"
-        problemStatementImage="/cartax.png"
+        problemStatementImage="/Vector-jobit.png"
         highFidelity="/jobitthumb.png"
-        imgUrl="/userFlow.svg"
+        imgUrl="/jobitFlow.svg"
       />
     </div>
   );
