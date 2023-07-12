@@ -342,56 +342,56 @@ const CaseDetails: React.FC<CaseDetailsProps> = ({
                   <div className="flex gap-2 items-start ">
                     <span>
                       <Image
-                        className="w-5 h-5 "
+                        className="w-3 h-3 "
                         src="/check.svg"
                         width={256}
                         height={128}
                         alt="delivery"
                       />
                     </span>
-                    <p className="text-10 mt-1 text-heroTextColor  ">
+                    <p className="text-10 flex-1 text-heroTextColor  ">
                       {firstTakeAway}
                     </p>
                   </div>
                   <div className="flex gap-2 mt-3 items-start ">
                     <span>
                       <Image
-                        className="w-5 h-5 "
+                        className="w-3 h-3 "
                         src="/check.svg"
                         width={256}
                         height={128}
                         alt="delivery"
                       />
                     </span>
-                    <p className="text-10 mt-1 text-heroTextColor  ">
+                    <p className="text-10 flex-1 text-heroTextColor  ">
                       {secondTakeAway}
                     </p>
                   </div>
                   <div className="flex gap-2 mt-3 items-start ">
                     <span>
                       <Image
-                        className="w-5 h-5 "
+                        className="w-3 h-3 "
                         src="/check.svg"
                         width={256}
                         height={128}
                         alt="delivery"
                       />
                     </span>
-                    <p className="text-10 mt-1 text-heroTextColor  ">
+                    <p className="text-10 flex-1 text-heroTextColor  ">
                       {thirdTakeAway}
                     </p>
                   </div>
                   <div className="flex gap-2 mt-3 items-start ">
                     <span>
                       <Image
-                        className="w-5 h-5"
+                        className="w-3 h-3"
                         src="/check.svg"
                         width={256}
                         height={128}
                         alt="delivery"
                       />
                     </span>
-                    <p className="text-10 mt-1 text-heroTextColor  ">
+                    <p className="text-10 flex-1 text-heroTextColor  ">
                       {fourthTakeAway}
                     </p>
                   </div>
@@ -407,14 +407,14 @@ const CaseDetails: React.FC<CaseDetailsProps> = ({
                   <div className="flex gap-2 items-start ">
                     <span>
                       <Image
-                        className="w-5 h-5 "
+                        className="w-3 h-3 "
                         src="/octgoal.svg"
                         width={256}
                         height={128}
                         alt="pointer"
                       />
                     </span>
-                    <p className="text-10 mt-1 text-heroTextColor  ">
+                    <p className="text-10 flex-1 text-heroTextColor  ">
                       {firstChallenge}
                     </p>
                   </div>
@@ -422,7 +422,7 @@ const CaseDetails: React.FC<CaseDetailsProps> = ({
                     <div>
                       <span>
                         <Image
-                          className="w-5 h-5 "
+                          className="w-3 h-3 "
                           src="/octgoal.svg"
                           width={256}
                           height={128}
@@ -431,21 +431,21 @@ const CaseDetails: React.FC<CaseDetailsProps> = ({
                       </span>
                     </div>
 
-                    <p className="text-10 mt-1 text-heroTextColor  ">
+                    <p className="text-10 flex-1 text-heroTextColor  ">
                       {secondChallenge}
                     </p>
                   </div>
                   <div className="flex gap-2 mt-3 items-start ">
                     <span>
                       <Image
-                        className="w-5 h-5 "
+                        className="w-3 h-3 "
                         src="/octgoal.svg"
                         width={256}
                         height={128}
                         alt="pointer"
                       />
                     </span>
-                    <p className="text-10 mt-1 text-heroTextColor  ">
+                    <p className="text-10 flex-1 text-heroTextColor  ">
                       {thirdChallenge}
                     </p>
                   </div>
