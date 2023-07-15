@@ -349,7 +349,7 @@ const CaseDetails: React.FC<CaseDetailsProps> = ({
                         alt="delivery"
                       />
                     </span>
-                    <p className="text-10 flex-1 text-heroTextColor  ">
+                    <p className="text-sm flex-1 text-heroTextColor  ">
                       {firstTakeAway}
                     </p>
                   </div>
@@ -363,7 +363,7 @@ const CaseDetails: React.FC<CaseDetailsProps> = ({
                         alt="delivery"
                       />
                     </span>
-                    <p className="text-10 flex-1 text-heroTextColor  ">
+                    <p className="text-sm flex-1 text-heroTextColor  ">
                       {secondTakeAway}
                     </p>
                   </div>
@@ -377,7 +377,7 @@ const CaseDetails: React.FC<CaseDetailsProps> = ({
                         alt="delivery"
                       />
                     </span>
-                    <p className="text-10 flex-1 text-heroTextColor  ">
+                    <p className="text-sm flex-1 text-heroTextColor  ">
                       {thirdTakeAway}
                     </p>
                   </div>
@@ -391,7 +391,7 @@ const CaseDetails: React.FC<CaseDetailsProps> = ({
                         alt="delivery"
                       />
                     </span>
-                    <p className="text-10 flex-1 text-heroTextColor  ">
+                    <p className="text-sm flex-1 text-heroTextColor  ">
                       {fourthTakeAway}
                     </p>
                   </div>
@@ -414,7 +414,7 @@ const CaseDetails: React.FC<CaseDetailsProps> = ({
                         alt="pointer"
                       />
                     </span>
-                    <p className="text-10 flex-1 text-heroTextColor  ">
+                    <p className="text-sm flex-1 text-heroTextColor  ">
                       {firstChallenge}
                     </p>
                   </div>
@@ -431,7 +431,7 @@ const CaseDetails: React.FC<CaseDetailsProps> = ({
                       </span>
                     </div>
 
-                    <p className="text-10 flex-1 text-heroTextColor  ">
+                    <p className=" text-sm flex-1 text-heroTextColor  ">
                       {secondChallenge}
                     </p>
                   </div>
@@ -445,7 +445,7 @@ const CaseDetails: React.FC<CaseDetailsProps> = ({
                         alt="pointer"
                       />
                     </span>
-                    <p className="text-10 flex-1 text-heroTextColor  ">
+                    <p className="text-sm flex-1 text-heroTextColor  ">
                       {thirdChallenge}
                     </p>
                   </div>

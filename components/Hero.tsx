@@ -13,7 +13,7 @@ import Link from 'next/link';
 const Hero = () => {
   return (
     <div className="bg-heroBg p-8 min-h-full font-mono lg:items-center lg:grid lg:grid-cols-2 overflow-hidden ">
-      <section className="flex flex-col justify-center">
+      <section className="flex flex-col justify-center md:pl-5 lg:pl-10">
         <span className=" tracking-widest text-buttonBg ">
           HI, I AM IBRAHIM
         </span>

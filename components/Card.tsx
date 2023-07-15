@@ -25,7 +25,7 @@ const Card: React.FC<CardProps> = ({
 }) => {
   return (
     <div
-      className={`flex drop-shadow-xl hover:scale-125 hover:animate-jump ${margin}`}
+      className={`flex drop-shadow-xl hover:scale-110 transition ease-in-out delay-150 hover:-translate-y-1 duration-300 hover:cursor-pointer ${margin}`}
     >
       <div
         className={`min-h-18 flex flex-col  gap-14 rounded-lg w-13 ${cardBgColor}`}

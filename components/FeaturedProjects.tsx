@@ -31,9 +31,9 @@ const FeaturedProjects = ({
   imageSide = 'left' || 'right',
 }: IProps): ReactElement => {
   return (
-    <div className="lg:flex mt-4 lg:justify-center md:flex md:justify-center  ">
+    <div className=" px-10 justify-center lg:flex mt-4 lg:justify-center md:flex md:justify-center  ">
       <div
-        className={`flex ${bgColor} lg:w-70 justify-between rounded-lg py-9  ${
+        className={`flex ${bgColor} min-w-fit px lg:min-w-full justify-between rounded-lg py-9  ${
           imageSide === 'left'
             ? 'lg:flex-row-reverse md:flex-row-reverse  md:gap-20  lg:gap-20 pl-14 md:pl-0 lg:pl-0 lg:pr-20 '
             : 'pl-14'
@@ -68,7 +68,7 @@ const FeaturedProjects = ({
         <div
           className={` ${
             imageSide === 'right'
-              ? 'md:flex lg:flex md:flex-row lg:flex-row md:pr-5'
+              ? 'md:flex lg:flex md:flex-row lg:flex-row md:pr-0'
               : 'hidden'
           } md:flex-row lg:flex-row md:flex lg:flex hidden  `}
         >

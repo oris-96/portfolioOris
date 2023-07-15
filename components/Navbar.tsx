@@ -23,7 +23,7 @@ const Navbar = () => {
 
   return (
     <div className="flex justify-center p-4 relative">
-      <Menubar className="flex lg:justify-between gap-36 max-w-full py-4 h-14 ">
+      <Menubar className="flex lg:justify-between gap-36 max-w-full py-8 h-14 ">
         <div>
           <MenubarMenu>
             <MenubarTrigger>
@@ -47,23 +47,33 @@ const Navbar = () => {
           />
         )}
 
-        <nav className={`${'lg:flex lg:items-center hidden'} `}>
+        <nav className={`${'lg:flex lg:items-center hidden cursor-pointer'} `}>
           <MenubarMenu>
             <Link href="/">
-              <MenubarTrigger className="font-mono">Home</MenubarTrigger>
+              <MenubarTrigger className="font-mono cursor-pointer">
+                Home
+              </MenubarTrigger>
             </Link>
           </MenubarMenu>
 
           <MenubarMenu>
-            <MenubarTrigger className="font-mono">Case Studies</MenubarTrigger>
+            <MenubarTrigger className="font-mono cursor-pointer">
+              Case Studies
+            </MenubarTrigger>
             <MenubarContent>
               <Link href="/case-studies/details-morent">
-                <MenubarItem className=" text-black "> Morrent </MenubarItem>
+                <MenubarItem className=" text-black cursor-pointer ">
+                  Morrent
+                </MenubarItem>
               </Link>
               <Link href="/case-studies/details-jobit">
-                <MenubarItem className=" text-black "> Jobit </MenubarItem>
+                <MenubarItem className=" text-black cursor-pointer ">
+                  Jobit
+                </MenubarItem>
               </Link>
-              <MenubarItem className=" text-black "> Trip Guide </MenubarItem>
+              <MenubarItem className=" text-black cursor-pointer ">
+                Trip Guide
+              </MenubarItem>
             </MenubarContent>
           </MenubarMenu>
 
@@ -73,28 +83,30 @@ const Navbar = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <MenubarTrigger className="font-mono">Github</MenubarTrigger>
+              <MenubarTrigger className="font-mono cursor-pointer">
+                Github
+              </MenubarTrigger>
             </a>
           </MenubarMenu>
 
           <MenubarMenu>
             <Link href="/contact">
-              <MenubarTrigger className="font-mono">Contact</MenubarTrigger>
+              <MenubarTrigger className="font-mono cursor-pointer">
+                Contact
+              </MenubarTrigger>
             </Link>
           </MenubarMenu>
 
           <MenubarMenu>
             <MenubarTrigger>
               <a href="/IBRAHIM_ABDULKAREEM23.pdf" download>
-                <Button className="font-mono bg-buttonBg">
+                <Button className="font-mono gap-2 cursor-pointer bg-buttonBg">
                   <Download />
                   Resume
                 </Button>
               </a>
             </MenubarTrigger>
           </MenubarMenu>
-
-          <Moon />
         </nav>
       </Menubar>
 
@@ -109,20 +121,20 @@ const Navbar = () => {
           className={` ${'flex flex-col space-y-5 justify-center items-center min-h-[250px]'} `}
         >
           <Link href="/">
-            <li className="hover:underline">Home</li>
+            <li className="hover:underline cursor-pointer">Home</li>
           </Link>
           <Link href="/case-studies">
-            <li className="hover:underline"> Case Studies </li>
+            <li className="hover:underline cursor-pointer"> Case Studies </li>
           </Link>
           <a
             href="https://github.com/oris-96"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <li className="hover:underline"> Github </li>
+            <li className="hover:underline cursor-pointer"> Github </li>
           </a>
           <Link href="/contact">
-            <li className="hover:underline"> Contact </li>
+            <li className="hover:underline cursor-pointer"> Contact </li>
           </Link>
         </ul>
       </section>

@@ -11,8 +11,8 @@ import Link from 'next/link';
 const Footer = () => {
   return (
     <>
-      <div data-aos="fade-up" className="flex justify-center ">
-        <div className=" p-10 md:flex lg:flex justify-between items-center rounded-lg w-100 m-10 min-h-full bg-cover bg-no-repeat bg-center bg-[url('/collaborate.png')]">
+      <div className="flex justify-center ">
+        <div className=" p-10 md:flex lg:flex justify-between items-center rounded-lg w-full m-10 min-h-full bg-cover bg-no-repeat bg-center bg-[url('/collaborate.png')]">
           <div>
             <p className="font-mono text-25 mb-8 ">
               Have a project idea to <br /> collaborate on ?
@@ -33,7 +33,6 @@ const Footer = () => {
         <a href="https://www.linkedin.com/in/iabdulkareem/" target="_blank">
           <Linkedin className=" text-iconBg" />
         </a>
-        <Globe className=" text-iconBg" />
         <a href="https://github.com/oris-96" target="_blank">
           <Github className=" text-iconBg" />
         </a>
